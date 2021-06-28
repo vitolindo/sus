@@ -1,0 +1,34 @@
+.faixa-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(46, 45, 51);
+
+  padding: 40px 200px;
+}
+
+.f12-redes-sociais {
+  display: flex;
+  flex-direction: row;
+}
+
+.f12-rodape-redes-sociais {
+  padding-left: 10px;
+}
+
+.f12-rodape-textos {
+  color: white;
+  font-family: Warren1;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.f12-textos {
+  padding-top: 25px;
+}
+
+.f12-cnpj {
+  font-size: 12px;
+}

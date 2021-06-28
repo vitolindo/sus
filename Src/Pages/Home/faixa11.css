@@ -1,0 +1,164 @@
+.faixa-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.f11-titulo {
+  align-items: center;
+  font-family: Warren2;
+  font-size: 2.7em;
+  margin-bottom: 1.2em;
+}
+.f11-texto {
+  padding: 0px 280px;
+  font-family: warren1;
+  font-size: 16px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+}
+.f11-texto2 {
+  padding: 2px 20px 20px 20px;
+  font-family: warren1;
+  font-size: 16px;
+}
+
+.f11-inputs {
+  width: 700px;
+}
+
+
+
+.f11-texto-input {
+  font-family: Warren1;
+  font-size: 0.9em;
+}
+
+.f11-nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.f11-nome input {
+  outline: none;
+  border: none;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 1em;
+}
+
+.f11-email-telefone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 17px;
+  justify-content: between 50px;
+}
+.f11-email {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.f11-email input {
+  outline: none;
+  border: none;
+  width: 340px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-telefone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.f11-telefone input {
+  outline: none;
+  border: none;
+  width: 340px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-l2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.f11-cargo {
+  display: flex;
+  flex-direction: column;
+}
+.f11-cargo input {
+  outline: none;
+  border: none;
+  width: 220px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-empresa {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.f11-empresa input {
+  outline: none;
+  border: none;
+  width: 230px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-funcionarios {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.f11-funcionarios select {
+  outline: none;
+  border: none;
+  width: 220px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-msg {
+  display: flex;
+  flex-direction: column;
+}
+.f11-msg textarea 
+{ height: 8em;}
+
+
+.f11-msg textarea {
+  outline: none;
+  border: none;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 1em;
+}
+
+.f11-botao {
+  margin-top: 40px;
+  text-align: center;
+}
+.f11-botao button {
+  background-color: #ee2e5d;
+  color: white;
+
+  font-family: Warren1;
+  font-size: 1em;
+  font-weight: bold;
+
+  padding: 1.5em 3.5em;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+
+  letter-spacing: 1px;
+}

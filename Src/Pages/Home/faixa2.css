@@ -1,0 +1,40 @@
+.faixa-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px 100px 60px 100px;
+}
+
+.f2-text1 {
+  font-family: warren2;
+  font-size: 16px;
+  color: #666666;
+}
+
+.f2-text2 {
+  font-family: warren2;
+  font-size: 46px;
+  line-height: 38px;
+  font-style: bold;
+  padding-right: 140px;
+}
+
+.f2-textos2 {
+  padding-right: 180px;
+}
+
+.f2-tet1 {
+  font-family: warren1;
+  font-size: 1em;
+}
+
+.f2-tet2 {
+  padding: 15px 0px;
+  font-family: warren1;
+  font-size: 1em;
+}
+
+.f2-tet3 {
+  font-family: warren1;
+  font-size: 1em;
+}

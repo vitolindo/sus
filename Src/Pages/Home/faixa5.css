@@ -1,0 +1,29 @@
+.faixa5 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px 100px 100px;
+  background-color: #000000;
+  align-items: center;
+}
+
+.f5-textos {
+  background-image: url("../../Assets/Images/F5-Aspas-Transparentes-Depoimento.webp");
+  background-repeat: no-repeat;
+  background-position: left-top;
+  margin: 0px 300px;
+
+  text-align: center;
+}
+
+.f5_frase {
+  padding-top: 13px;
+
+  font: 20px Warren1;
+  color: #ffffff;
+}
+
+.f5_autor {
+  padding: 30px;
+  font: 1em Warren1;
+  color: white;
+}

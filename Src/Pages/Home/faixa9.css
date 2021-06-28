@@ -1,0 +1,58 @@
+.faixa-9 {
+  padding: 140px;
+}
+
+.f9-titulo {
+  font-size: 17px;
+  font-family: Warren1;
+  font-weight: bold;
+  color: gray;
+}
+
+.f9-subtitulo {
+  font-family: Warren2;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.f9-boxes {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f9-box {
+  width: 336px;
+  background-color: rgb(245, 246, 250);
+  border-radius: 10px;
+
+  padding: 22px 32px;
+}
+
+.f9-box-imagem {
+  padding: 20px 0px;
+}
+
+.f9-frase {
+  font-family: Warren1;
+}
+
+.f9-nome {
+  font-size: 1em;
+  font-family: Warren2;
+
+  color: rgb(46, 45, 51);
+
+  padding: 20px 0px;
+}
+
+.f9-logo {
+  padding-bottom: 0.6em;
+}
+
+.f9-logo img {
+  width: 70px;
+  height: auto;
+}

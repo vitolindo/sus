@@ -1,0 +1,45 @@
+.faixa1 {
+  background-image: url("../../Assets/Images/F1-Imagem-Heróis-Warren.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 98vh;
+
+  color: white;
+
+  padding: 17px 35px;
+}
+
+.f1-textos {
+  padding: 120px 0px 0px 100px;
+  width: 600px;
+}
+
+.f1-titulo {
+  font-size: 55px;
+  font-family: Warren2;
+  font-weight: bold;
+
+  margin-right: 10px;
+
+  line-height: 50px;
+}
+
+.f1-botao {
+  padding-top: 40px;
+}
+
+.f1-botao button {
+  background-color: #ee2e5d;
+  color: white;
+
+  font-family: Warren1;
+  font-size: 1em;
+  font-weight: bold;
+
+  padding: 25px 42px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+
+  letter-spacing: 1px;
+}

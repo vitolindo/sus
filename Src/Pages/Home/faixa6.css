@@ -1,0 +1,66 @@
+.faixa-site-6 {
+  background-image: url("../../Assets/Images/F6-Background-Palestra.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-color: black;
+
+  padding: 70px 520px 150px 320px;
+  height: 83vh;
+}
+
+.f6-elementos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.f6-box1 {
+  background-image: url("../../Assets/Images/F6-Imagem-Educação-Financeira.webp");
+  background-repeat: no-repeat;
+  background-size: 10em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 90px;
+  margin-right: 120px;
+}
+
+.f6-box2 {
+  background-image: url("../../Assets/Images/F6-Imagem-Planejamento-Financeiro.webp");
+  background-repeat: no-repeat;
+  background-size: 9.5em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 0px 10px 90px;
+}
+
+.f6-box3 {
+  background-image: url("../../Assets/Images/F6-Imagem-Investimento.webp");
+  background-repeat: no-repeat;
+  background-size: 8.8em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 80px;
+}
+
+.f6-box4 {
+  background-image: url("../../Assets/Images/F6-Imagem-Cenário-Macroeconômico.webp");
+  background-repeat: no-repeat;
+  background-size: 9.5em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 90px;
+}
+
+.f6-box-titulo {
+  color: white;
+  font-family: Warren2;
+  width: 10px;
+  font-size: 2em;
+  line-height: 0.8em;
+}

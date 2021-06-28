@@ -1,0 +1,43 @@
+.faixa-10 {
+  background-color: #ee2e5d;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 130px 200px 50px 140px;
+}
+
+.f10-textos {
+  width: 27em;
+  margin-right: 8em;
+}
+
+.f10-text1 {
+  padding-bottom: 5px;
+  font-family: warren2;
+  font-size: 16px;
+  color: #e3e4eb;
+}
+
+.f10-text2 {
+  padding-bottom: 20px;
+  font-family: warren2;
+  font-size: 46px;
+}
+
+.f10-text3 {
+  font-family: warren1;
+  font-size: 1em;
+}
+
+.f10-text4 {
+  font-family: warren1;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+.f10-img1 img {
+  height: 35em;
+  width: auto;
+}

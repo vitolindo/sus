@@ -1,0 +1,95 @@
+.faixa-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 120px 100px 140px;
+}
+
+.f7-titulo {
+  font: 1em Warren2;
+  color: #666666;
+  font-weight: bold;
+}
+
+.f7-subtitulo a {
+  color: #ee2e5d;
+  font-size: 45px;
+  font-family: Warren2;
+  font-size: 45px;
+}
+
+.f7-subtitulo {
+  font-family: Warren2;
+  font-size: 2.6em;
+  padding-right: 6em;
+}
+
+.f7-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+
+.f7-imagem-empresa1 {
+  padding: 40px 140px 40px 10px;
+}
+
+.f7-imagem-empresa2 {
+  padding: 30px 140px 40px 0px;
+}
+
+.f7-imagem-empresa3 {
+  padding: 25px 140px 40px 0px;
+}
+
+.f7-imagem-empresa4 {
+  padding: 25px 120px 40px 0px;
+}
+
+.f7-imagem-empresa5 {
+  padding: 50px 65px 40px 0px;
+}
+
+.f7-imagem-empresa6 {
+  padding: 40px 65px 40px 0px;
+}
+
+.f7-imagem-empresa7 {
+  padding: 40px 60px 40px 0px;
+}
+
+.f7-imagem-empresa1 img {
+  width: 10em;
+  height: auto;
+}
+
+.f7-imagem-empresa2 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa3 img {
+  width: 9em;
+  height: auto;
+}
+
+.f7-imagem-empresa4 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa5 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa6 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa7 img {
+  width: 7em;
+  height: auto;
+}

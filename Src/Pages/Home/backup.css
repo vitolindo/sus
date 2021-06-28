@@ -1,0 +1,751 @@
+@font-face {
+  font-family: Warren1;
+  src: url("../../Assets/Fonts/Fonte-Warren-1.woff2");
+}
+
+@font-face {
+  font-family: Warren2;
+  src: url("../../Assets/Fonts/Fonte-Warren-2.woff2");
+}
+
+@font-face {
+  font-family: Warren3;
+  src: url("../../Assets/Fonts/Fonte-Warren-3.woff2");
+}
+
+@font-face {
+  font-family: Warren4;
+  src: url("../../Assets/Fonts/Fonte-Warren-4.woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+
+.faixa1 {
+  background-image: url("../../Assets/Images/F1-Imagem-Heróis-Warren.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 98vh;
+
+  color: white;
+
+  padding: 17px 35px;
+}
+
+.f1-textos {
+  padding: 120px 0px 0px 100px;
+  width: 600px;
+}
+
+.f1-titulo {
+  font-size: 55px;
+  font-family: Warren2;
+  font-weight: bold;
+
+  margin-right: 10px;
+
+  line-height: 50px;
+}
+
+.f1-botao {
+  padding-top: 40px;
+}
+
+.f1-botao button {
+  background-color: #ee2e5d;
+  color: white;
+
+  font-family: Warren1;
+  font-size: 16px;
+  font-weight: bold;
+
+  padding: 25px 42px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+
+  letter-spacing: 1px;
+}
+
+
+.faixa-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px 100px 60px 100px;
+}
+
+.f2-text1 {
+  font-family: warren2;
+  font-size: 16px;
+  color: #666666;
+}
+
+.f2-text2 {
+  font-family: warren2;
+  font-size: 46px;
+  line-height: 38px;
+  font-style: bold;
+  padding-right: 140px;
+}
+
+.f2-textos2 {
+  padding-right: 180px;
+}
+
+.f2-tet1 {
+  font-family: warren1;
+  font-size: 16px;
+}
+
+.f2-tet2 {
+  padding: 15px 0px;
+  font-family: warren1;
+  font-size: 16px;
+}
+
+.f2-tet3 {
+  font-family: warren1;
+  font-size: 16px;
+}
+
+.faixa3 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(245, 246, 250);
+  padding: 90px 140px;
+  align-items: center;
+  justify-content: space-between;
+}
+.f3-img {
+  padding-top: 35px;
+  padding-left: 80px;
+}
+
+.f3-img img {
+  width: 500px;
+  height: auto;
+}
+
+.f3-titulo {
+  font-family: warren2;
+  color: gray;
+  font-size: 16px;
+  line-height: 1px;
+}
+.f3-subtitulo {
+  font-family: warren2;
+  font-size: 45px;
+  padding-bottom: 33px;
+}
+.f3-l1 {
+  font-family: warren1;
+  font-size: 16px;
+  color: #2e2d33;
+  padding-bottom: 16px;
+}
+.f3-texto {
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 38px;
+}
+
+
+.faixa-4 {
+  display: flex;
+  flex-direction: row;
+  background-color: #242429;
+  padding: 150px 150px;
+}
+
+.f4-titulo {
+  font-weight: bold;
+  color: #666666;
+  font-size: 16px;
+  font-family: Warren1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.f4-conteudo {
+  line-height: 2.5rem;
+  color: #ee2e5d;
+
+  display: flex;
+  flex-direction: row;
+  font-family: Warren2;
+  font-size: 43px;
+
+  line-height: 42px;
+  font-style: bold;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.f4-conteudo2 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  font-family: Warren2;
+  font-size: 43px;
+
+  line-height: 42px;
+  font-style: bold;
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+}
+
+.f4-conteudo3 {
+  color: #ffffff;
+  width: 450px;
+  font-family: Warren1;
+  font-size: 16px;
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.f4-conteudo4 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  font-family: Warren1;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+}
+
+
+.faixa5 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px 100px 100px;
+  background-color: #000000;
+  align-items: center;
+}
+
+.f5-textos {
+  background-image: url("../../Assets/Images/F5-Aspas-Transparentes-Depoimento.webp");
+  background-repeat: no-repeat;
+  background-position: left-top;
+  margin: 0px 300px;
+
+  text-align: center;
+}
+
+.f5_frase {
+  padding-top: 13px;
+
+  font: 20px Warren1;
+  color: #ffffff;
+}
+
+.f5_autor {
+  padding: 30px;
+  font: 16px Warren1;
+  color: white;
+}
+
+
+.faixa-site-6 {
+  background-image: url("../../Assets/Images/F6-Background-Palestra.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-color: black;
+
+  padding: 70px 520px 150px 320px;
+  height: 83vh;
+}
+
+.f6-elementos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.f6-box1 {
+  background-image: url("../../Assets/Images/F6-Imagem-Educação-Financeira.webp");
+  background-repeat: no-repeat;
+  background-size: 10em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 90px;
+  margin-right: 120px;
+}
+
+.f6-box2 {
+  background-image: url("../../Assets/Images/F6-Imagem-Planejamento-Financeiro.webp");
+  background-repeat: no-repeat;
+  background-size: 9.5em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 0px 10px 90px;
+}
+
+.f6-box3 {
+  background-image: url("../../Assets/Images/F6-Imagem-Investimento.webp");
+  background-repeat: no-repeat;
+  background-size: 8.8em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 80px;
+}
+
+.f6-box4 {
+  background-image: url("../../Assets/Images/F6-Imagem-Cenário-Macroeconômico.webp");
+  background-repeat: no-repeat;
+  background-size: 9.5em;
+  background-position: left;
+  width: 150px;
+  height: auto;
+  padding: 70px 90px;
+}
+
+.f6-box-titulo {
+  color: white;
+  font-family: Warren2;
+  width: 10px;
+  font-size: 2em;
+  line-height: 0.8em;
+}
+
+.faixa-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 120px 100px 140px;
+}
+
+.f7-titulo {
+  font: 1em Warren2;
+  color: #666666;
+  font-weight: bold;
+}
+
+.f7-subtitulo a {
+  color: #ee2e5d;
+  font-size: 45px;
+  font-family: Warren2;
+  font-size: 45px;
+}
+
+.f7-subtitulo {
+  font-family: Warren2;
+  font-size: 2.6em;
+  padding-right: 6em;
+}
+
+.f7-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+
+.f7-imagem-empresa1 {
+  padding: 40px 140px 40px 10px;
+}
+
+.f7-imagem-empresa2 {
+  padding: 30px 140px 40px 0px;
+}
+
+.f7-imagem-empresa3 {
+  padding: 25px 140px 40px 0px;
+}
+
+.f7-imagem-empresa4 {
+  padding: 25px 120px 40px 0px;
+}
+
+.f7-imagem-empresa5 {
+  padding: 50px 65px 40px 0px;
+}
+
+.f7-imagem-empresa6 {
+  padding: 40px 65px 40px 0px;
+}
+
+.f7-imagem-empresa7 {
+  padding: 40px 60px 40px 0px;
+}
+
+.f7-imagem-empresa1 img {
+  width: 10em;
+  height: auto;
+}
+
+.f7-imagem-empresa2 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa3 img {
+  width: 9em;
+  height: auto;
+}
+
+.f7-imagem-empresa4 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa5 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa6 img {
+  width: 7em;
+  height: auto;
+}
+
+.f7-imagem-empresa7 img {
+  width: 7em;
+  height: auto;
+}
+
+
+.faixa8 {
+  padding: 50px 50px;
+  background-color: #171717;
+
+  text-align: center;
+}
+
+.f8_botao button {
+  background-color: #ee2e5d;
+  color: white;
+
+  font-family: Warren1;
+  font-size: 16px;
+  font-weight: bold;
+
+  padding: 25px 30px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+
+  letter-spacing: 1px;
+}
+
+.faixa-9 {
+  padding: 140px;
+}
+
+.f9-titulo {
+  font-size: 17px;
+  font-family: Warren1;
+  font-weight: bold;
+  color: gray;
+}
+
+.f9-subtitulo {
+  font-family: Warren2;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+.f9-boxes {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f9-box {
+  width: 336px;
+  background-color: rgb(245, 246, 250);
+  border-radius: 10px;
+
+  padding: 22px 32px;
+}
+
+.f9-box-imagem {
+  padding: 20px 0px;
+}
+
+.f9-frase {
+  font-family: Warren1;
+}
+
+.f9-nome {
+  font-size: 16px;
+  font-family: Warren2;
+
+  color: rgb(46, 45, 51);
+
+  padding: 20px 0px;
+}
+
+.f9-logo img {
+  width: 70px;
+  height: auto;
+}
+
+.faixa-10 {
+  background-color: #ee2e5d;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 130px 200px 50px 140px;
+}
+
+.f10-textos {
+  width: 27em;
+  margin-right: 8em;
+}
+
+.f10-text1 {
+  padding-bottom: 5px;
+  font-family: warren2;
+  font-size: 16px;
+  color: #e3e4eb;
+}
+
+.f10-text2 {
+  padding-bottom: 20px;
+  font-family: warren2;
+  font-size: 46px;
+}
+
+.f10-text3 {
+  font-family: warren1;
+  font-size: 16px;
+}
+
+.f10-text4 {
+  font-family: warren1;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.f10-img1 img {
+  height: 35em;
+  width: auto;
+}
+
+.faixa-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.f11-titulo {
+  align-items: center;
+  font-family: Warren2;
+  font-size: 2.7em;
+  margin-bottom: 1.2em;
+}
+.f11-texto {
+  padding: 0px 280px;
+  font-family: warren1;
+  font-size: 16px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+}
+.f11-texto2 {
+  padding: 2px 20px 20px 20px;
+  font-family: warren1;
+  font-size: 16px;
+}
+
+.f11-inputs {
+  width: 700px;
+}
+
+
+
+.f11-texto-input {
+  font-family: Warren1;
+  font-size: 0.9em;
+}
+
+.f11-nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.f11-nome input {
+  outline: none;
+  border: none;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 1em;
+}
+
+.f11-email-telefone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 17px;
+  justify-content: between 50px;
+}
+.f11-email {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.f11-email input {
+  outline: none;
+  border: none;
+  width: 340px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-telefone {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.f11-telefone input {
+  outline: none;
+  border: none;
+  width: 340px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-l2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.f11-cargo {
+  display: flex;
+  flex-direction: column;
+}
+.f11-cargo input {
+  outline: none;
+  border: none;
+  width: 220px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-empresa {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.f11-empresa input {
+  outline: none;
+  border: none;
+  width: 230px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-funcionarios {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.f11-funcionarios select {
+  outline: none;
+  border: none;
+  width: 220px;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 0.4em;
+}
+
+.f11-msg {
+  display: flex;
+  flex-direction: column;
+}
+.f11-msg textarea 
+{ height: 8em;}
+
+
+.f11-msg textarea {
+  outline: none;
+  border: none;
+  background-color: rgb(245, 246, 250);
+  padding: 0.65em 1em;
+}
+
+.f11-botao {
+  margin-top: 40px;
+  text-align: center;
+}
+.f11-botao button {
+  background-color: #ee2e5d;
+  color: white;
+
+  font-family: Warren1;
+  font-size: 16px;
+  font-weight: bold;
+
+  padding: 1.5em 3.5em;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+
+  letter-spacing: 1px;
+}
+
+.faixa-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(46, 45, 51);
+
+  padding: 40px 200px;
+}
+
+.f12-redes-sociais {
+  display: flex;
+  flex-direction: row;
+}
+
+.f12-rodape-redes-sociais {
+  padding-left: 10px;
+}
+
+.f12-rodape-textos {
+  color: white;
+  font-family: Warren1;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.f12-textos {
+  padding-top: 25px;
+}
+
+.f12-cnpj {
+  font-size: 12px;
+}
+

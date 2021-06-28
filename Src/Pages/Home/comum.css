@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Warren1;
+  src: url("../../Assets/Fonts/Fonte-Warren-1.woff2");
+}
+
+@font-face {
+  font-family: Warren2;
+  src: url("../../Assets/Fonts/Fonte-Warren-2.woff2");
+}
+
+@font-face {
+  font-family: Warren3;
+  src: url("../../Assets/Fonts/Fonte-Warren-3.woff2");
+}
+
+@font-face {
+  font-family: Warren4;
+  src: url("../../Assets/Fonts/Fonte-Warren-4.woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}

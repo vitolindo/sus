@@ -1,0 +1,73 @@
+.faixa-4 {
+  display: flex;
+  flex-direction: row;
+  background-color: #242429;
+  padding: 150px 150px;
+}
+
+.f4-titulo {
+  font-weight: bold;
+  color: #666666;
+  font-size: 1em;
+  font-family: Warren1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.f4-conteudo {
+  line-height: 2.5rem;
+  color: #ee2e5d;
+
+  display: flex;
+  flex-direction: row;
+  font-family: Warren2;
+  font-size: 43px;
+
+  line-height: 42px;
+  font-style: bold;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.f4-conteudo2 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  font-family: Warren2;
+  font-size: 43px;
+
+  line-height: 42px;
+  font-style: bold;
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+}
+
+.f4-conteudo3 {
+  color: #ffffff;
+  width: 450px;
+  font-family: Warren1;
+  font-size: 1em;
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+.f4-conteudo4 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  font-family: Warren1;
+  font-size: 1em;
+
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+}
